@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek's Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,52 +21,70 @@
 </head>
 <body>
     <!--<img src="https://em-content.zobj.net/source/microsoft-teams/337/rocket_1f680.png" alt="sky-rocket" class="rocket"> -->
-    <div class="top-container">
-        <img src="images/cloud.png" alt="cloud-img" class="top-cloud">
-        <h1 class="heading">I'm Abhishek</h1>
-        <h2 class="para">a Web Developer</h2>
-        <img src="images/cloud.png" alt="cloud-img" class="bottom-cloud">
-        <img src="images/mountain.png" alt="mountain-img" class="mountain">
-
-
-    </div>
-
-    <div class="middle-container">
-        <div class="profile">
-          <img src="images/My profile photo.png" alt="My_pro_pic" class="pro-pic">
-          <h2>Hello.</h2>
-          <p class="My-self">Graduated from Govt. Model Science college 🎓, Pursuid B.Sc. in Computer Applications. Learning Python... I 💓 to watch anime and cook food 😋. My Fav. food is italian 🍝 and south-indian 🥘.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="Gaming" src="https://media1.giphy.com/media/piPmxJEJzDbMHla6yX/giphy.webp?cid=ecf05e47jxm08kvvfdkq91qf17elz6sjfswpy8ex9k1wzbat&rid=giphy.webp&ct=s" alt="Skill-game">
-            <h3>Gaming & Programming</h3>
-            <p class="left-space">I've played a variety of games and conquered stages..., from my childhood I was a fan of Playstation Games and Consol Games like Bloody-Roar and Contra, Tomb Raider etc. And I love story Games. Someday I'd love to programm some of my own Games or work in Gaming community.</p>
-          </div>
-          <div class="skill-row">
-            <img class="Sketch" src="https://media2.giphy.com/media/QXfnD0OA6QA21ARijh/giphy.webp?cid=ecf05e472k7s9c4zizdl3is5zfovkfm1bumb0kt4vgdeij5t&rid=giphy.webp&ct=s" alt="Skill-sketch">
-            <h3><a href="https://www.facebook.com/profile.php?id=100066920554898">Sketch & Drawing</a></h3>
-            <p class="right-space">From my childhood I was a very big fan of animes and cartoon stuf So I started Drawing and I try to copy them, I've made some portraits of <a href="https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/48382565_596037167522569_5366065387240685568_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W1exvM_22fYAX_P6F58&tn=uWF5sYN6gIxO7yx5&_nc_ht=scontent.fidr4-1.fna&oh=00_AfDdEBFg3MQ6cNX3ISPnCrHVxZ04wZWKwpOR887AL_etkg&oe=641AF01F">Mr. late Rabindranath Taigore</a> and <a href="https://scontent.fidr4-3.fna.fbcdn.net/v/t1.6435-9/48381417_596037207522565_3635114384935616512_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=hvaELeXjEvMAX9mvmo3&tn=uWF5sYN6gIxO7yx5&_nc_ht=scontent.fidr4-3.fna&oh=00_AfC9qs4h0M9Rgjv8aZspnBG3pZ6x7x-kwydOlRfRZXQWZA&oe=641AF160">Kabir das</a> with only using dots. Whenever I got some free time I love to draw or sketch.</p>
+    <section id="header" class="top-container area">
+      <div class="container">
+        <div class="row row-cols-lg-12 row-cols-sm-12 justify-content-center">
+          <div class="col col-lg-8 col-sm-12">
+            <img src="images/cloud.png" alt="cloud-img" class="top-cloud float-end pb-4">
+            <h1 class="heading mx-auto pt-5">I'm Abhishek</h1>
+            <h2 class="para mx-auto">a Web Developer</h2>
+            <img src="images/cloud.png" alt="cloud-img" class="bottom-cloud float-start pt-4">
+            <img src="images/mountain.png" alt="mountain-img" class="mountain mx-auto sticky-bottom">
+            <div class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </div>
           </div>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>If you love Sketching as much as I do.</h3>
-          <p class="My-self">Feel free to contact me. I'd love to teach passionate people like you! to how to draw better in just couple of months...</p>
-          <a class="btn" href="mailto:avishek.npt@gmail.com"> CONTACT ME</a>
+      </div>
+    </section>
+    <section id="middle-section" class="middle-container">
+      <div class="container">
+          <div class="profile">
+            <img src="images/My profile photo.png" alt="My_pro_pic" class="pro-pic">
+            <h2>Hello.</h2>
+            <p class="My-self">Graduated from Govt. Model Science college 🎓, Pursuid B.Sc. in Computer Applications. Learning Python... I 💓 to watch anime and cook food 😋. My Fav. food is italian 🍝 and south-indian 🥘.</p>
+          </div>
+          <hr>
+          <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+              <img class="Gaming" src="https://media1.giphy.com/media/piPmxJEJzDbMHla6yX/giphy.webp?cid=ecf05e47jxm08kvvfdkq91qf17elz6sjfswpy8ex9k1wzbat&rid=giphy.webp&ct=s" alt="Skill-game">
+              <h3>Gaming & Programming</h3>
+              <p class="left-space">I've played a variety of games and conquered stages..., from my childhood I was a fan of Playstation Games and Consol Games like Bloody-Roar and Contra, Tomb Raider etc. And I love story Games. Someday I'd love to programm some of my own Games or work in Gaming community.</p>
+            </div>
+            <div class="skill-row">
+              <img class="Sketch" src="https://media2.giphy.com/media/QXfnD0OA6QA21ARijh/giphy.webp?cid=ecf05e472k7s9c4zizdl3is5zfovkfm1bumb0kt4vgdeij5t&rid=giphy.webp&ct=s" alt="Skill-sketch">
+              <h3><a href="https://www.facebook.com/profile.php?id=100066920554898">Sketch & Drawing</a></h3>
+              <p class="right-space">From my childhood I was a very big fan of animes and cartoon stuf So I started Drawing and I try to copy them, I've made some portraits of <a href="https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/48382565_596037167522569_5366065387240685568_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W1exvM_22fYAX_P6F58&tn=uWF5sYN6gIxO7yx5&_nc_ht=scontent.fidr4-1.fna&oh=00_AfDdEBFg3MQ6cNX3ISPnCrHVxZ04wZWKwpOR887AL_etkg&oe=641AF01F">Mr. late Rabindranath Taigore</a> and <a href="https://scontent.fidr4-3.fna.fbcdn.net/v/t1.6435-9/48381417_596037207522565_3635114384935616512_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=hvaELeXjEvMAX9mvmo3&tn=uWF5sYN6gIxO7yx5&_nc_ht=scontent.fidr4-3.fna&oh=00_AfC9qs4h0M9Rgjv8aZspnBG3pZ6x7x-kwydOlRfRZXQWZA&oe=641AF160">Kabir das</a> with only using dots. Whenever I got some free time I love to draw or sketch.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love Sketching as much as I do.</h3>
+            <p class="My-self">Feel free to contact me. I'd love to teach passionate people like you! to how to draw better in just couple of months...</p>
+            <a class="btn" href="mailto:avishek.npt@gmail.com"> CONTACT ME</a>
+          </div>
         </div>
+    </section>
+    <section id="bottom-section" class="bottom-container">
+      <div class="container mx-auto">
+          <a class="footer-link" href="https://www.instagram.com/avisheknpt/">Instagram</a>
+          <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
+          <a class="footer-link" href="https://avigithubb.github.io/cv/">Website</a>
+          <p class="Copyright pb-0">© 2023 Abhishek Napit @ The App Nowhere.</p>
       </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.instagram.com/avisheknpt/">Instagram</a>
-        <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
-        <a class="footer-link" href="https://avigithubb.github.io/cv/">Website</a>
-        <p class="Copyright">© 2023 Abhishek Napit @ The App Nowhere.</p>
-      </div>
+    </section>
+  
       
 </body>
 </html>
